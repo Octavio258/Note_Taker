@@ -1,0 +1,22 @@
+{
+  "name": "note_taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Octavio258/Note_Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Octavio258/Note_Taker/issues"
+  },
+  "homepage": "https://github.com/Octavio258/Note_Taker#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
