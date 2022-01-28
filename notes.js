@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-function createNewNote(body, notesArray) {
+function createNote(body, notesArray) {
     const note = body;
     notesArray.push(note);
     fs.writeFileSync(
@@ -21,4 +21,4 @@ function validateNote(note) {
     return true;
 }
 
-module.exports = { createNewNote, validateNote };
+module.exports = { createNote, validateNote };
